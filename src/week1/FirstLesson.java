@@ -4,33 +4,30 @@ import java.util.Scanner;
 
 public class FirstLesson {
 
-    private int myVar = 100;
+    private int privateVariable;
+
+    protected static int PROTECTED_CONST = 100;
+
+    final static double PACKAGE_PRIVATE_CONST = 10.0;
+
+    public int PUBLIC_VARIABLE = 100;
 
     public static void main(String[] args) {
-        FirstLesson lesson = new FirstLesson();
-        FirstLesson lesson2 = new FirstLesson();
-        FirstLesson lesson3 = new FirstLesson();
-
-        lesson.setMyVar(99);
-        lesson2.setMyVar(88);
-
-        lesson.printMyVar();
-        lesson2.printMyVar();
-        lesson3.printMyVar();
     }
 
-    private void setMyVar(int i) {
-        myVar = i;
+    protected void oneProtectedMethod() {
+        System.out.println("Protected method called");
     }
 
-    private void printMyVar() {
-        System.out.println(myVar);
+    void packagePrivateMethod() {
+        System.out.println("Package-private method was called");
     }
 
     public void getNewNumber(int d) throws NegativeNumberException {
         if (d < 0) {
             throw new NegativeNumberException("Negative numbers are restricted!");
         }
+
     }
 
     public class NegativeNumberException extends Exception {

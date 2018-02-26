@@ -1,9 +1,9 @@
 package week1;
 
 import java.util.Scanner;
+
 /**
- *Prepare a programming task, where a user needs to input some value, the program is performing some calculations and printing out results in the console (example: inch to cm converter or vice versa),
- *
+ * Prepare a programming task, where a user needs to input some value, the program is performing some calculations and printing out results in the console (example: inch to cm converter or vice versa),
  */
 
 public class CalculationExercise1 {
