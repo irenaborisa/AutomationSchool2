@@ -5,10 +5,9 @@ package edu.ctco.school2.school.exercise5;
  *
  * What will be printed out, then fixed ?
  *
- * X class is package private, we instantiate new X class - x instance with all class fields and methods
- *
- * methodOfX is private in class X, private methods can only be accessed from within the same class
- * method 'methodOfx' should be either public or protected
+ * Ans.: 1. X class is package private, we instantiate new X class - x instance with all class fields and methods
+         2. methodOfX is private in class X, private methods can only be accessed from within the same class
+ *       3. method 'methodOfx' should be either public or protected
  */
 public class MainClass
 {

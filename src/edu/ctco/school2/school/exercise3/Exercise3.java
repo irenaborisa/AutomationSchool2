@@ -5,7 +5,7 @@ package edu.ctco.school2.school.exercise3;
  *
  *  How to fix it?
  *
- *  sub-class should be static
+ * Ans.: sub-class should be static
  */
 class Exercise3
 {

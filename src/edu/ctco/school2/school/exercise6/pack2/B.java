@@ -7,7 +7,7 @@ import edu.ctco.school2.school.exercise4.pack1.A;
  *
  * How to fix it ?
  *
- * add import of A
+ * Ans.: add import of A
  */
 class B
 {

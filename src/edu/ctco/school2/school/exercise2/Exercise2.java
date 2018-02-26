@@ -16,11 +16,3 @@ class SubExercise2 extends Exercise2 {
     int myVar = i;
 
 }
-
-/*
-* class Exercise2 {
-    private int i;
-}
-
-class SubExercise2 extends Exercise2 {
-}*/
