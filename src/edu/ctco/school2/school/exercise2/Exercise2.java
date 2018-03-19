@@ -9,6 +9,7 @@ package edu.ctco.school2.school.exercise2;
  */
 class Exercise2 {
     protected int i = 2;
+
 }
 
 class SubExercise2 extends Exercise2 {
